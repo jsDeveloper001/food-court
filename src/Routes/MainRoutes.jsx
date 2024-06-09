@@ -14,8 +14,9 @@ const routes = createBrowserRouter([
             {
                 path: '/',
                 element: <Home />
-            }, {
-
+            },
+            {
+                path:"contact"
             }
         ]
     }

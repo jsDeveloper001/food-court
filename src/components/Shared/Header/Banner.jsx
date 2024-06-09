@@ -11,23 +11,23 @@ const Banner = () => {
     return (
         <div>
             <Carousel autoPlay infiniteLoop>
-                <div>
-                    <img src={Image1} />
+                <div className='sm:h-[480px]'>
+                    <img src={Image1} className='h-full'/>
                 </div>
-                <div>
-                    <img src={Image2} />
+                <div className='sm:h-[480px]'>
+                    <img src={Image2} className='h-full'/>
                 </div>
-                <div>
-                    <img src={Image3} />
+                <div className='sm:h-[480px]'>
+                    <img src={Image3} className='h-full'/>
                 </div>
-                <div>
-                    <img src={Image4} />
+                <div className='sm:h-[480px]'>
+                    <img src={Image4} className='h-full'/>
                 </div>
-                <div>
-                    <img src={Image5} />
+                <div className='sm:h-[480px]'>
+                    <img src={Image5} className='h-full'/>
                 </div>
-                <div>
-                    <img src={Image6} />
+                <div className='sm:h-[480px]'>
+                    <img src={Image6} className='h-full'/>
                 </div>
             </Carousel>
         </div>
